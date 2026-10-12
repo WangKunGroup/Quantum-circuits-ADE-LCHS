@@ -5,7 +5,7 @@ Numerical-experiment code for the paper:
 > **Quantum circuits for the advection-diffusion equation with boundary conditions based on LCHS**
 > arXiv:[2605.17542](https://arxiv.org/abs/2605.17542)
 >
-> Author: Leyu Chen, Tiegang Liu, Liang Xu, and Kun Wang
+> **Authors:** Leyu Chen, Tiegang Liu, Liang Xu, Kun Wang
 
 This repository contains the simulation code for the numerical experiments reported in the
 paper. Each case is a self-contained C++ program built on the
@@ -36,20 +36,21 @@ The solvers implement the framework of the paper end to end:
   through `Select_U_gate`.
 - **Time integration** — a second-order Trotter–Suzuki decomposition with `r` Trotter steps of
   length `tau = T / r`.
-- **Read-out** — the state is sampled with `probRunDict`, and the physical amplitude is
-  recovered from the measured probability by rescaling with the normalisation constants of the
-  initial state and of the prepared coefficient vectors.
+- **Read-out** — the probabilities are queried with `probRunDict`, which on the state-vector
+  backend returns exact probabilities rather than finite-shot estimates, and the physical
+  amplitude is recovered by rescaling with the normalisation constants of the initial state and
+  of the prepared coefficient vectors.
 
 ### Qubit register naming
 
-The code follows the notation of the paper:
+The code follows the notation of the paper; where the symbols differ, the correspondence is:
 
-| Symbol | Meaning |
-| --- | --- |
-| `n` / `N` | qubits / number of spatial discretisation points (`N = 2^n`) |
-| `m` / `M` | qubits / number of LCHS coefficients (`M = 2^m`) |
-| `l` / `L` | qubits / number of outer LCU coefficients (`L = 2^l`) |
-| `r` | number of Trotter steps |
+| Code symbol | Paper notation | Meaning |
+| --- | --- | --- |
+| `n` / `N` | `n` / `N = 2^n` | qubits / number of spatial discretisation points |
+| `m` / `M` | `m` / `M = 2^m` | qubits / number of LCHS coefficients |
+| `l` / `L` | `m_o` / `M_o = 2^{m_o}` | qubits / number of outer LCU coefficients |
+| `r` | `N_t` | number of Trotter steps |
 
 ---
 
@@ -123,6 +124,14 @@ and a UUID library), the CMake configuration options, the Windows and Linux/macO
 sequences, and the default installation directories (`/usr/local` on Linux and macOS,
 `C:/QPanda2` on Windows). Please refer to it for anything version-specific.
 
+### Tested environment
+
+The results in the paper were produced with:
+
+- **QPanda2** — version 2.7.17 (2023-05-22)
+- **Compiler/toolchain** — C++14 with OpenMP, CMake
+- **OS** — Windows
+
 ### Compiling a case
 
 Point a CMake project at your QPanda installation, using the pattern from the official guide:
@@ -190,6 +199,7 @@ runtime.
 
 ```bibtex
 @article{advectiondiffusionLCHS,
+  author = {Chen, Leyu and Liu, Tiegang and Xu, Liang and Wang, Kun},
   title  = {Quantum circuits for the advection-diffusion equation with
             boundary conditions based on LCHS},
   year   = {2026},
