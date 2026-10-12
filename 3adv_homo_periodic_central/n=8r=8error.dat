@@ -1,0 +1,10 @@
+./adv_homo_periodic_central/n=8r=8error.dat
+relative_error_infty = 0.000275711935
+relative_error_1 = 0.000274567503
+relative_error_2 = 0.000274564298
+error_infty = 0.000275711636
+error_1 = 0.000174789296
+error_2 = 0.000194146277
+rate = 1.000000
+sqrt(rate) = 1.000000
+Total time: 0.020863s

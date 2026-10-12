@@ -1,0 +1,11 @@
+./heat_homo_neumann/n=8m=4r=1K=143error.dat
+relative_error_infty = 0.002683501158
+relative_error_1 = 0.002683506032
+relative_error_2 = 0.002683503624
+error_infty = 0.002431254733
+error_1 = 0.001547826496
+error_2 = 0.001719190652
+energy = exp(-a^2*pi^2*t/l^2) = 0.906018
+rate = 0.500230
+sqrt(rate) = 0.707270
+Total time: 0.041441s

@@ -1,0 +1,10 @@
+./adv_homo_periodic_upwind/n=8m=3r=8K=128error.dat
+relative_error_infty = 0.006905059884
+relative_error_1 = 0.006649782563
+relative_error_2 = 0.006654115269
+error_infty = 0.006905052396
+error_1 = 0.004233242461
+error_2 = 0.004705170030
+rate = 0.999828
+sqrt(rate) = 0.999914
+Total time: 2.232768s

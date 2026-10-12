@@ -1,0 +1,11 @@
+n=9m=5r=1K=286.plt
+relative_error_infty = 0.001984692002
+relative_error_1 = 0.001984686064
+relative_error_2 = 0.001984689269
+error_infty = 0.001798158327
+error_1 = 0.001144746903
+error_2 = 0.001271494179
+energy = exp(-a^2*pi^2*t/l^2) = 0.906018
+rate = 0.499911
+sqrt(rate) = 0.707044
+Total time: 0.117067s

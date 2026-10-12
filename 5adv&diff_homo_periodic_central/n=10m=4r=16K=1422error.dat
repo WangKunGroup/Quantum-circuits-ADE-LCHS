@@ -1,0 +1,11 @@
+n=10m=4r=16K=1422.plt
+relative_error_infty = 0.003779430271
+relative_error_1 = 0.002775799453
+relative_error_2 = 0.002951683530
+error_infty = 0.003424227709
+error_1 = 0.001601051390
+error_2 = 0.001891000514
+energy = exp(-(a^2/4b+pi^2*b/l^2)*t) = 0.906018
+rate = 0.500736
+sqrt(rate) = 0.707627
+Total time: 0.262196s
