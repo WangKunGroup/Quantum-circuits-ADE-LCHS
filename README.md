@@ -4,6 +4,7 @@ Numerical-experiment code for the paper:
 
 > **Quantum circuits for the advection-diffusion equation with boundary conditions based on LCHS**
 > arXiv:[2605.17542](https://arxiv.org/abs/2605.17542)
+> author: Leyu Chen, Tiegang Liu, Liang Xu, and Kun Wang
 
 This repository contains the simulation code for the numerical experiments reported in the
 paper. Each case is a self-contained C++ program built on the
