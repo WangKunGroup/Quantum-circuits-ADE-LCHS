@@ -1,0 +1,10 @@
+n=8l=5r=8.plt
+relative_error_infty = 0.002431450903
+relative_error_1 = 0.002403469902
+relative_error_2 = 0.002403501144
+error_infty = 0.000121072850
+error_1 = 0.000076188838
+error_2 = 0.000084627576
+rate = 0.992153
+sqrt(rate) = 0.996069
+Total time: 0.103915s

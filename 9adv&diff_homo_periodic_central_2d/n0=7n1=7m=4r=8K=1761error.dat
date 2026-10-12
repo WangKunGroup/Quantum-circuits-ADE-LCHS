@@ -1,0 +1,13 @@
+./adv&diff_homo_periodic_central_2d/n0=7n1=7m=4r=8K=1761error.dat
+integrate_coeff_norm1 = 1.204500
+u0_norm2 = 64.000000
+integrate_coeff_norm1 * u0_norm2 = 77.088027
+relative_error_infty = 0.003964809091
+relative_error_1 = 0.002482460211
+relative_error_2 = 0.002578317046
+error_infty = 0.003254208208
+error_1 = 0.000825888482
+error_2 = 0.001058229903
+rate = 0.463555
+sqrt(rate) = 0.680849
+Total time: 1.775054s

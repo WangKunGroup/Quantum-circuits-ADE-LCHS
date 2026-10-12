@@ -1,0 +1,14 @@
+n0=7n1=7m=4r=1K=178error.dat
+integrate_coeff_norm1 = 1.199861
+u0_norm2 = 64.000000
+integrate_coeff_norm1 * u0_norm2 = 76.791082
+relative_error_infty = 0.001813214806
+relative_error_1 = 0.001813413114
+relative_error_2 = 0.001813280641
+error_infty = 0.001488355275
+error_1 = 0.000603303929
+error_2 = 0.000744232677
+energy = exp(-(a1^2/l1^2+a2^2/l2^2)*pi^2*t) = 0.820869
+rate = 0.466356
+sqrt(rate) = 0.682903
+Total time: 1.630527s

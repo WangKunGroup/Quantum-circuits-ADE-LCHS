@@ -1,0 +1,10 @@
+n=11m=4l=3r=1K=96.plt
+relative_error_infty = 0.026795367345
+relative_error_1 = 0.009441164107
+relative_error_2 = 0.010029785145
+error_infty = 0.000877086279
+error_1 = 0.000178506831
+error_2 = 0.000217906261
+rate = 0.543061
+sqrt(rate) = 0.736927
+Total time: 0.614998s
